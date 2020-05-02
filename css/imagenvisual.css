@@ -22,6 +22,10 @@ img {
   padding: 10px 10px; /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
   /*display:none;*/
 }
+
+.logo {
+  width: 14rem;
+}
 .twoColHybLtHdr #header h1 {
   margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
   padding: 30px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
@@ -109,16 +113,19 @@ img {
   height: auto;
 }
 .photos a.image {
-  border: solid 1px #999;
+  border: dotted 1px #bbbbbb;
   padding: 5px;
-
+  transform: translateZ(0);
   float: left;
   margin-bottom: 15px;
   width: 100%;
   box-sizing: border-box;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
-.photoes a:hover.image {
-  border-color: #00ff66;
+.photos a.image:hover {
+  border: dotted 1px #00ff66;
+  background-color: #f8f8f8;
+  transform: scale(1.03);
 }
 .photos p {
   font-size: 83%;
