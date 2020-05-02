@@ -24,7 +24,7 @@ img {
 }
 
 .logo {
-  width: 14rem;
+  image-rendering: optimizespeed;
 }
 .twoColHybLtHdr #header h1 {
   margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
@@ -293,6 +293,9 @@ h1 {
 }
 
 @media only screen and (max-width: 660px) {
+  .logo {
+    width: 15rem;
+  }
   .photos {
     width: 100%;
   }
