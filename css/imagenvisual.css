@@ -1,5 +1,5 @@
 body {
-  font: 77%/170% Helvetica, sans-serif !important;
+  font: 0.9rem/170% Helvetica, sans-serif !important;
   background: #fff;
   margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
   padding: 0;
@@ -19,12 +19,12 @@ img {
   text-align: left; /* this overrides the text-align: center on the body element. */
 }
 .twoColHybLtHdr #header {
-  padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+  padding: 10px 10px; /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
   /*display:none;*/
 }
 .twoColHybLtHdr #header h1 {
   margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
-  padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+  padding: 30px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
 
 /* Tips for sidebar1:
@@ -123,6 +123,25 @@ img {
 .photos p {
   font-size: 83%;
   line-height: 160%;
+}
+
+a.cv {
+  border-radius: 20px;
+  padding: 7px;
+  width: 100%;
+  color: #0a8f66;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: 40px 20px 0 0;
+  display: block;
+  border: 1px dotted #0a8f66;
+  box-sizing: border-box;
+  transition: ease-in 0.3s background-color;
+}
+a.cv:hover {
+  background-color: #0a8f66;
+  color: white;
 }
 a.visit {
   display: none;
