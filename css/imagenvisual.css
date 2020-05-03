@@ -23,9 +23,6 @@ img {
   /*display:none;*/
 }
 
-.logo {
-  image-rendering: optimizespeed;
-}
 .twoColHybLtHdr #header h1 {
   margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
   padding: 30px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
@@ -268,6 +265,32 @@ h1 {
   width: 100%;
 }
 
+.phrase {
+  border-bottom: 1px dotted #0a8f66;
+  padding: 10px 0;
+  color: #0a8f66;
+  margin: 20px 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  border-top: 1px dotted #0a8f66;
+  text-align: center;
+}
+
+.b-lazy {
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  max-width: 100%;
+  opacity: 0;
+}
+.b-lazy.b-loaded {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 960px) {
   .twoColHybLtHdr #container {
     width: auto;
@@ -293,9 +316,6 @@ h1 {
 }
 
 @media only screen and (max-width: 660px) {
-  .logo {
-    width: 15rem;
-  }
   .photos {
     width: 100%;
   }

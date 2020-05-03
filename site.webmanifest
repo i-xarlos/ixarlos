@@ -1,0 +1,52 @@
+{
+  "short_name": "\u003cixarlos/\u003e",
+  "name": "Carlos Gil Carrillo - @Xarlos_",
+  "description": "Hi! I'm Carlos, I have over 10 years of web development experience. I'm a developer and web designer who welcomes challenging projects and enjoy working with all sorts of people with differents skills. Self-motivated with a high level of experience working on multiple projects and hardworking, with a hight meeting deadlines penchant. ",
+  "icons": [
+    {
+      "src": "images/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFBC44",
+  "display": "browser",
+  "scope": "/",
+  "theme_color": "#FFBC44"
+}
