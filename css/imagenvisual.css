@@ -11,7 +11,16 @@ img {
   display: block;
 }
 
+#defaultCanvas0 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
 #container {
+  position: relative;
+  z-index: 10;
   width: 90%; /* this will create a container 80% of the browser width */
   max-width: 1660px;
   margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
@@ -157,6 +166,7 @@ a.open {
   font-size: 12px;
   color: #999999;
   text-decoration: none;
+  text-transform: lowercase;
 }
 a:hover.visit {
   color: #333;
@@ -277,6 +287,7 @@ h1 {
   font-size: 0.6rem;
   border-top: 1px dotted #0a8f66;
   text-align: center;
+  position: relative;
 }
 
 .js {

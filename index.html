@@ -11,8 +11,23 @@
     <meta name="msapplication-navbutton-color" content="#FFBC44" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFBC44" />
 
-    <!--<base href="https://ixarlos.com/archivos/web4you/" target="_blank" />-->
-    <title>Carlos Enrique Gil Carrillo / @Xarlos_</title>
+    <title>
+      &#60;ixarlos/&#62; (Carlos Enrique Gil Carrillo :D || Software Engineer & Graphic Designer || @Xarlos_)
+    </title>
+    <meta
+      name="description"
+      content="I'm a developer and web designer who welcomes challenging projects and enjoy
+          working with all sorts of people with differents skills. Self-motivated with a high level of experience
+          working on multiple projects and hardworking, with a hight meeting deadlines penchant."
+    />
+
+    <script>
+      var base = document.createElement("base");
+      base.href = "https://ixarlos.com/archivos/web4you/";
+      base.target = "_self";
+
+      if (window.location.host === "ixarlos.com") document.getElementsByTagName("head")[0].appendChild(base);
+    </script>
 
     <link href="css/imagenvisual.css" rel="stylesheet" type="text/css" />
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
@@ -53,11 +68,19 @@
         </p>
 
         <p class="phrase">
-          <a data-fancybox="gallery" href="photos/im2.png" class="image"
+          <a data-fancybox="gallery" href="photos/im.png" class="image"
             ><img class="b-lazy js" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-            data-src="images/js.png" /></a
+            data-src="images/js.gif" /></a
           >
           Liberté, égalité, fraternité.
+
+          <a
+            target="_blank"
+            href="https://nodeschool.io/es/"
+            title="Nice community work, chalenge yourself"
+            class="open"
+            >open</a
+          >
         </p>
 
         <div class="mails">
@@ -94,7 +117,7 @@
       <div id="mainContent">
         <div class="wrap">
           <div class="photos">
-            <a data-fancybox="gallery" href="photos/im.png" class="image"
+            <a data-fancybox="gallery" href="photos/im2.png" class="image"
               ><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
               data-src="photos/im0.png" height="140" width="305" /></a
             >
@@ -276,7 +299,7 @@
 
             <a data-fancybox="gallery" style="display: none;" title="Robot thumb" href="photos/effectus2.jpg">
               <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-              data-src="photos/effectus2" /></a
+              data-src="photos/effectus2.jpg" /></a
             >
 
             <a data-fancybox="gallery" style="display: none;" title="Robot thumb" href="photos/effectus3.jpg">
@@ -284,7 +307,7 @@
               data-src="photos/effectus3.jpg" /></a
             >
 
-            <h3>Efectus</h3>
+            <h3>Effectus</h3>
             <p>PHP developer, CMS & CEO</p>
             <a target="_blank" href="https://www.effectusfischman.com/" class="open">open</a>
           </div>
@@ -562,6 +585,8 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="js/blazy.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="js/sketch.js"></script>
     <script>
       (function () {
         // Initialize
