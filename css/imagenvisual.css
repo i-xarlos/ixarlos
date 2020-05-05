@@ -12,8 +12,8 @@ img {
 }
 
 #container {
-  width: 80%; /* this will create a container 80% of the browser width */
-
+  width: 90%; /* this will create a container 80% of the browser width */
+  max-width: 1660px;
   margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
   /*border: 1px solid #000000;*/
   text-align: left; /* this overrides the text-align: center on the body element. */
@@ -279,6 +279,11 @@ h1 {
   text-align: center;
 }
 
+.js {
+  width: 80%;
+  margin: 0 auto 10px;
+}
+
 .b-lazy {
   -webkit-transition: opacity 500ms ease-in-out;
   -moz-transition: opacity 500ms ease-in-out;
@@ -316,6 +321,9 @@ h1 {
 }
 
 @media only screen and (max-width: 660px) {
+  .js {
+    width: 50%;
+  }
   .photos {
     width: 100%;
   }
